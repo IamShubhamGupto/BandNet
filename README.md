@@ -5,7 +5,7 @@
   <h1 align="center">Analysis and application of multispectral data for water segmentation using machine learning</h1>
   
   <p align="center">
-    Water Segementation from Sentinel-2
+    Water Segementation from Sentinel-2. Work published in <a href="https://link.springer.com/book/9789811978685">CVMI 2022</a>
     <br />
   </p>
 </p>
