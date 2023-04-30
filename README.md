@@ -31,10 +31,13 @@ conda env create -f environment.yml
 ## Additional software and resources
 Users are required to download and install [SNAP](https://step.esa.int/main/download/snap-download/) to setup the python interface ```snappy```. <b>This cannot be installed by conda or pip directly.</b> This [link](https://senbox.atlassian.net/wiki/spaces/SNAP/pages/50855941/Configure+Python+to+use+the+SNAP-Python+snappy+interface) might be helpful in setting up snappy.
 # Dataset
-We use Sentinel-2 products available from [Copernicus](https://scihub.copernicus.eu/dhus/#/home). Refer to the paper for product details.
+We use Sentinel-2 products available from [Copernicus](https://scihub.copernicus.eu/dhus/#/home). Data used to train bandnet is available under the `data` folder. For training DeepLabv3+, we release our generated dataset [here](https://drive.google.com/drive/folders/124Z0PhPc5ewjNr2rwXs04FRWaQ_668X5?usp=sharing)
 
 # Pretrained weights
-There are no pretrained weights provided as they are easy and quick to reproduce. The code to save the weights is provided with in notebooks.
+**NOTE**: The goal of BandNet is to quickly train and segment water bodies over localized regions and we do not expect it to generalize over other geographical terrains.
+
+We release our pretrained models weights [here](https://drive.google.com/drive/folders/124Z0PhPc5ewjNr2rwXs04FRWaQ_668X5?usp=sharing). 
+
 
 # Results
 | <b> Annotation </b>    | <b> [DeepWaterMapv2](https://github.com/isikdogan/deepwatermap) </b>| <b> [WatNet](https://github.com/xinluo2018/WatNet) </b>|<b> BanNet </b>|
