@@ -48,22 +48,25 @@ We release our pretrained models weights [here](https://drive.google.com/drive/f
 If you find our work useful, please cite using
 ### bibtex
 ```latex
-@misc{https://doi.org/10.48550/arxiv.2212.08749,
-  doi = {10.48550/ARXIV.2212.08749},
-  
-  url = {https://arxiv.org/abs/2212.08749},
-  
-  author = {Gupta, Shubham and D., Uma and Hebbar, Ramachandra},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {Analysis and application of multispectral data for water segmentation using machine learning},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {Creative Commons Attribution 4.0 International}
+@InProceedings{10.1007/978-981-19-7867-8_56,
+author="Gupta, Shubham
+and Uma, D.
+and Hebbar, R.",
+editor="Tistarelli, Massimo
+and Dubey, Shiv Ram
+and Singh, Satish Kumar
+and Jiang, Xiaoyi",
+title="Analysis and Application of Multispectral Data for Water Segmentation Using Machine Learning",
+booktitle="Computer Vision and Machine Intelligence",
+year="2023",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="709--718",
+abstract="Monitoring water is a complex task due to its dynamic nature, added pollutants, and land build-up. The availability of high-resolution data by Sentinel-2 multispectral products makes implementing remote sensing applications feasible. However, overutilizing or underutilizing multispectral bands of the product can lead to inferior performance. In this work, we compare the performances of ten out of the thirteen bands available in a Sentinel-2 product for water segmentation using eight machine learning algorithms. We find that the shortwave-infrared bands (B11 and B12) are the most superior for segmenting water bodies. B11 achieves an overall accuracy of {\$}{\$}71{\backslash}{\%}{\$}{\$}71{\%}while B12 achieves {\$}{\$}69{\backslash}{\%}{\$}{\$}69{\%}across all algorithms on the test site. We also find that the Support Vector Machine (SVM) algorithm is the most favorable for single-band water segmentation. The SVM achieves an overall accuracy of {\$}{\$}69{\backslash}{\%}{\$}{\$}69{\%}across the tested bands over the given test site. Finally, to demonstrate the effectiveness of choosing the right amount of data, we use only B11 reflectance data to train an artificial neural network, BandNet. Even with a basic architecture, BandNet is proportionate to known architectures for semantic and water segmentation, achieving a 92.47 mIOU on the test site. BandNet requires only a fraction of the time and resources to train and run inference, making it suitable to be deployed on web applications to run and monitor water bodies in localized regions. Our codebase is available at https://github.com/IamShubhamGupto/BandNet.",
+isbn="978-981-19-7867-8"
+}
+
+
 }
 
 ```
